@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Urbanist", sans-serif;
+}
+
+.kotak {
+  width: 200px;
+  height: 300px;
+  background: red;
+}
+
+.res-slide:nth-child(1) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444282/samples/landscapes/nature-mountains.jpg");
+}
