@@ -18,7 +18,7 @@ const Home = () => {
         <div className="hero md:w-[90%] md:mx-auto md:pt-12">
           <div className="flex justify-center rounded-3xl">
             <img
-              src="../src/assets/img/hero-img.png"
+              src={"../src/assets/img/hero-img.png"}
               alt="hero-img"
               className="pt-10 pb-14 md:hidden"
             />
