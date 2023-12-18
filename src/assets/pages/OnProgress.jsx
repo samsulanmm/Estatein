@@ -10,7 +10,7 @@ const OnProgress = () => {
       <div className="on-progress text-center py-5 w-[90%] mx-auto">
         <img
           className="w-[400px] inline"
-          src="../src/assets/img/turu.svg"
+          src="./turu.svg"
           alt=""
         />
 

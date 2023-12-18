@@ -8,7 +8,7 @@ const CarouselItem1 = () => {
         <div className="card mt-10 rounded-xl p-4 border-[1px] border-solid border-light-gray">
           <div className="card-item">
             <div className="flex justify-center">
-              <img src="../src/assets/img/carousel-img-1.svg" alt="" />
+              <img src="./carousel-img-1.svg" alt="" />
             </div>
 
             <h3 className="text-lg font-semibold pt-4">
@@ -22,7 +22,7 @@ const CarouselItem1 = () => {
 
             <div className="features flex justify-between gap-2 pb-5">
               <div className="feature-1 inline-flex items-center gap-1 py-2 px-4 rounded-lg bg-gray">
-                <img src="../src/assets/img/bedroom-icon.svg" alt="" />
+                <img src="./bedroom-icon.svg" alt="" />
                 <p className="text-sm font-medium">
                   4 <br />
                   Bedroom
@@ -30,7 +30,7 @@ const CarouselItem1 = () => {
               </div>
 
               <div className="feature-2 inline-flex justify-center items-center gap-1 py-2 px-4 rounded-lg bg-gray">
-                <img src="../src/assets/img/bathroom-icon.svg" alt="" />
+                <img src="./bathroom-icon.svg" alt="" />
                 <p className="text-sm font-medium">
                   3 <br />
                   Bathroom
@@ -38,7 +38,7 @@ const CarouselItem1 = () => {
               </div>
 
               <div className="feature-3 inline-flex justify-between items-center gap-1 py-2 px-4 rounded-lg bg-gray">
-                <img src="../src/assets/img/villa-icon.svg" alt="" />
+                <img src="./villa-icon.svg" alt="" />
                 <p className="text-sm font-medium">Villa</p>
               </div>
             </div>

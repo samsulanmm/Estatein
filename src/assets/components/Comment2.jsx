@@ -7,7 +7,7 @@ const Comment2 = () => {
         <div className="card mt-10 rounded-xl p-7 border-[1px] border-solid border-light-gray">
           <div className="comment-item">
             <div className="flex justify-start">
-              <img src="../src/assets/img/comment-star.svg" alt="" />
+              <img src="./comment-star.svg" alt="" />
             </div>
 
             <h3 className="text-lg font-semibold pt-4">Trusted Advisors</h3>
@@ -19,7 +19,7 @@ const Comment2 = () => {
             </p>
 
             <div className="pp flex items-center gap-3">
-              <img src="../src/assets/img/comment-2.svg" alt="" />
+              <img src="./comment-2.svg" alt="" />
 
               <p className="text-base font-medium">
                 Mang Asep

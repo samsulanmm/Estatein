@@ -18,13 +18,13 @@ const Home = () => {
         <div className="hero md:w-[90%] md:mx-auto md:pt-12">
           <div className="flex justify-center rounded-3xl">
             <img
-              src={"../src/assets/img/hero-img.png"}
+              src={"./hero-img.png"}
               alt="hero-img"
               className="pt-10 pb-14 md:hidden"
             />
 
             <img
-              src="../src/assets/img/hero-img.svg"
+              src="./hero-img.svg"
               alt="hero-img"
               className="pt-10 pb-14 hidden md:block absolute right-0 top-[100px] h-[600px]"
             />
@@ -108,10 +108,10 @@ const Home = () => {
           <div className="flex justify-between gap-3">
             <div className="text-center bg-gray py-5 px-4 rounded-lg border-[2px] border-solid border-light-gray w-full">
               <div className="relative inline-block">
-                <img src="../src/assets/img/exp-icon-1.svg" alt="" />
+                <img src="./exp-icon-1.svg" alt="" />
 
                 <img
-                  src="../src/assets/img/arrow.svg"
+                  src="./arrow.svg"
                   alt=""
                   className="absolute top-0 right-[-35px]"
                 />
@@ -122,10 +122,10 @@ const Home = () => {
 
             <div className="text-center bg-gray py-5 px-4 rounded-lg border-[2px] border-solid border-light-gray w-full">
               <div className="relative inline-block">
-                <img src="../src/assets/img/exp-icon-2.svg" alt="" />
+                <img src="./exp-icon-2.svg" alt="" />
 
                 <img
-                  src="../src/assets/img/arrow.svg"
+                  src="./arrow.svg"
                   alt=""
                   className="absolute top-0 right-[-35px]"
                 />
@@ -138,10 +138,10 @@ const Home = () => {
           <div className="flex justify-between gap-3 mt-3">
             <div className="text-center bg-gray py-5 px-4 rounded-lg border-[2px] border-solid border-light-gray w-full">
               <div className="relative inline-block">
-                <img src="../src/assets/img/exp-icon-3.svg" alt="" />
+                <img src="./exp-icon-3.svg" alt="" />
 
                 <img
-                  src="../src/assets/img/arrow.svg"
+                  src="./arrow.svg"
                   alt=""
                   className="absolute top-0 right-[-35px]"
                 />
@@ -152,10 +152,10 @@ const Home = () => {
 
             <div className="text-center bg-gray py-5 px-4 rounded-lg border-[2px] border-solid border-light-gray w-full">
               <div className="relative inline-block">
-                <img src="../src/assets/img/exp-icon-4.svg" alt="" />
+                <img src="./exp-icon-4.svg" alt="" />
 
                 <img
-                  src="../src/assets/img/arrow.svg"
+                  src="./arrow.svg"
                   alt=""
                   className="absolute top-0 right-[-35px]"
                 />
@@ -167,7 +167,7 @@ const Home = () => {
         </div>
 
         <div className="featured md:w-[90%] md:mx-auto">
-          <img src="../src/assets/img/dark-stars-icon.svg" alt="" />
+          <img src="./dark-stars-icon.svg" alt="" />
 
           <h2 className="text-3xl font-semibold pb-1 md:text-[48px] md:pb-2 md:pt-2">
             Featured Properties
@@ -189,7 +189,7 @@ const Home = () => {
         </div>
 
         <div className="client-said pt-10 md:w-[90%] md:mx-auto">
-          <img src="../src/assets/img/dark-stars-icon.svg" alt="" />
+          <img src="./dark-stars-icon.svg" alt="" />
 
           <h2 className="text-3xl font-semibold pb-1 md:text-[48px] md:pb-2 md:pt-2">
             What Our Clients Say
@@ -211,7 +211,7 @@ const Home = () => {
         </div>
 
         <div className="faq pt-10 w-[90%] mx-auto">
-          <img src="../src/assets/img/dark-stars-icon.svg" alt="" />
+          <img src="./dark-stars-icon.svg" alt="" />
 
           <h2 className="text-3xl font-semibold pb-1 md:text-[48px] md:py-2">
             Frequently Asked Questions
