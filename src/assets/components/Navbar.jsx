@@ -20,9 +20,9 @@ const Navbar = () => {
 
       <div className="wrapper bg-gray border-b-[1px] border-[#666]">
         <nav className="px-4 py-5 flex justify-between items-center text-sm font-medium md:w-[90%] md:mx-auto md:px-0 md:py-5">
-          <a href="" className="logo">
+          <Link to="/" className="logo">
             <img src="./logo.svg" alt="logo" />
-          </a>
+          </Link>
 
           <div className="hidden md:flex">
             <ul className="flex gap-8  text-lg font-medium">
